@@ -1,0 +1,51 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.leftDiv {
+  border: solid black;
+  background-color: antiquewhite;
+  border-radius: 25px;
+  padding: 10px 30px 10px;
+  margin-right: 10%;
+  width: 30%;
+  height: 500px;
+  display: inline-block;
+}
+
+.rightDiv {
+  border: solid black;
+  background-color: antiquewhite; 
+  border-radius: 25px;
+  padding: 10px 30px 10px;
+  width: 30%;
+  display: inline-block;
+}
+
+.form {
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: 12px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+  border-radius: 5px;
+}
+
+.titulo {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.field {
+  background-color: blanchedalmond;
+}
+
+.submit {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  margin-top: 50px;
+}
